@@ -257,16 +257,6 @@ namespace WindowsFormsApp2
 
         private void Calculate()
         {
-            //     true  && true  = true
-            //     true  && false = false
-            //     false && false = false
-
-            //     true  || true  = true
-            //     true  || false = true
-            //     false || false = false
-
-            //     !true = false
-            //     !false = true
             if (textBox1.Text == "0" && operate == "/")
             {
                 MessageBox.Show("ไม่สามารถหารด้วย 0 ได้");
